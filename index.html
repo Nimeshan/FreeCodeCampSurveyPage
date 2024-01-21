@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="title">freeCodeCamp Survey</h1>
+<p id="description">Please fill in the survey to help us improve freeCodeCamp</p>
+
+<form id="survey-form" class="survey-form">
+
+
+<fieldset class="boxone">
+
+<label for="name-label">Name:<input type="text" id="name" name="name-label" required placeholder="Enter your Name"/></label>
+
+
+<label for="email-label">Email:<input type="email" id="email" name="email-label" required placeholder="Enter your Email"/></label>
+
+<label for="number-label">Age:<input type="number" id="number" name="number-label" placeholder="Enter your Age" min="13" max="99"/></label>
+
+
+<label for="dropdown">What's your Current Employement Status: 
+<select id="dropdown" name="dropdown">
+<option value="">(Select your Profession)</option>
+<option value="1">Student</option>
+<option value="2">Unemployed</option>
+<option value="3">Employed</option>
+</select>
+</label>
+
+
+</fieldset>
+<fieldset class="boxtwo">
+
+<legend>Do you Recommend freeCodeCamp to anyone?</legend>
+
+<label for="yes"><input type="radio" id="yes" name="yes" class="inline" checked />Yes</label>
+<label for="no"><input type="radio" id="no" name="no" class="inline"/>No</label>
+<br>
+<label for="extra-comments">Do you have any Additional comments to improve our service:<textarea id="extra-comments" placeholder="Write your Feedback"></textarea></label>
+
+</fieldset>
+<fieldset class="boxthree">
+
+<label for="terms-and-conditions"> <input type="checkbox" required name="terms-and-conditions" />I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+
+
+<input type="submit" value="submit" class="submitbox"/>
+
+</fieldset>
+</form>
+</body>
+</html>

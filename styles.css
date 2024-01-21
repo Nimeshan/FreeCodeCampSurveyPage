@@ -1,0 +1,58 @@
+body{
+  background-image: url("https://images.pexels.com/photos/360591/pexels-photo-360591.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+h1, p{  
+  background-color: #e3c634;
+  margin: 0 auto;
+  text-align: center;
+  width: 20px;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 5px;
+}
+
+.survey-form{
+  background-color: #f1f11f;
+  margin: 0 auto;
+  text-align: center;
+  width: 20px;
+  max-width: 500px;
+  min-width: 300px;
+  padding: 1px;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.boxone{
+  padding: 17px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.boxtwo{
+  padding: 17px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.boxthree{
+  padding: 8px;
+   margin-top: 2px;
+   margin-bottom: 2px;
+   margin: 9px auto;
+}
+
+.submitbox{
+  padding: 1px;
+  margin: 9px auto;
+}
+
